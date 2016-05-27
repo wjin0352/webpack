@@ -44,14 +44,14 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
 	var $ = __webpack_require__(1);
 	var makeBackgroundRed = __webpack_require__(2);
 	
-	$(document).ready(function() {
+	$(document).ready(function () {
 	  makeBackgroundRed();
 	});
-	
-
 
 /***/ },
 /* 1 */
@@ -9877,14 +9877,15 @@
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
 	var $ = __webpack_require__(1);
 	
-	var makeBackgroundRed = function() {
+	var makeBackgroundRed = function makeBackgroundRed() {
 	    $('body').css('background-color', 'red');
 	};
 	
 	module.exports = makeBackgroundRed;
-
 
 /***/ }
 /******/ ]);
