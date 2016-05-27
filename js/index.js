@@ -1,5 +1,5 @@
 var $ = require('jquery');
-var makeBackgroundRed = requre('./background');
+var makeBackgroundRed = require('./background');
 
 $(document).ready(function() {
   makeBackgroundRed();
